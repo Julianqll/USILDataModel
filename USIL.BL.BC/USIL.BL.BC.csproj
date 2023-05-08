@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\USIL.BL.BE\USIL.BL.BE.csproj" />
+    <ProjectReference Include="..\USIL.DL.DALC\USIL.DL.DALC.csproj" />
+  </ItemGroup>
+
+</Project>
